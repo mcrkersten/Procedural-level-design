@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72e7dbfefa6f6af43bc417b534768463, type: 3}
+  m_Name: CameraMovement
+  m_EditorClassIdentifier: 
+  _guideType: 1
+  _data:
+  - _guide: 1
+    _index: 0
+    _title: Camera movement
+    _text: To move the camera, right-click and drag the mouse!
+    _objective: Move camera
+    _toHighlight: 0
+  - _guide: 1
+    _index: 1
+    _title: Camera rotation
+    _text: In order to rotate the camera, press and hold the left ALT button and
+      right-click and drag the mouse!
+    _objective: Rotate camera
+    _toHighlight: 0
+  - _guide: 1
+    _index: 2
+    _title: Zoom camera
+    _text: In order to zoom the camera, scroll the mouse scroll-wheel
+    _objective: Zoom camera
+    _toHighlight: 0
+  - _guide: 1
+    _index: 3
+    _title: Pitch camera
+    _text: To pitch the camera, press and hold the left ALT button and left-click
+      and drag the mouse!
+    _objective: Pitch camera
+    _toHighlight: 0

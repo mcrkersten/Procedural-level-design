@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc723b127031fa4898b74dd5934e3a2, type: 3}
+  m_Name: UnitTypeDatabase
+  m_EditorClassIdentifier: 
+  unitTypeLibraries:
+  - _type: 2
+    _unitTypeIcon: {fileID: 21300000, guid: 5a567cbf2bd66ea4b81d6fda53001243, type: 3}
+    _baseWellbeing:
+      _maxHealth: 100
+      _maxEnergy: 750
+      _maxHunger: 500
+      _maxEnergyMultiplier: 1
+      _maxHungerMultiplier: 1
+      _energyLossPerTick: 1
+      _hungerIncreasePerTick: 1
+    _movementSpeed: 2
+    _meeleeRange: 2
+    _unitWeight: 10
+    _toolPrefab: {fileID: 166396291279263675, guid: 35e270899e5d2314cb070f38adb088cc,
+      type: 3}
+    _minimumTargetGroupDistance: 6
+    _cooldownTime: 1.5
+    _animationTime: 0.25
+    _actionStrength: 1
+    _maxStorage: 100
+  - _type: 1
+    _unitTypeIcon: {fileID: -7786479431958563585, guid: dc36e1a4a23cc934cb9861dfd0a949bf,
+      type: 3}
+    _baseWellbeing:
+      _maxHealth: 100
+      _maxEnergy: 750
+      _maxHunger: 500
+      _maxEnergyMultiplier: 10
+      _maxHungerMultiplier: 1
+      _energyLossPerTick: 1
+      _hungerIncreasePerTick: 1
+    _movementSpeed: 2
+    _meeleeRange: 0.5
+    _unitWeight: 10
+    _toolPrefab: {fileID: 726930995762995773, guid: fefe1e2997d7578408c6f89ecefae02e,
+      type: 3}
+    _minimumTargetGroupDistance: 2
+    _cooldownTime: 1.5
+    _animationTime: 0.25
+    _actionStrength: 1
+    _maxStorage: 100
+  - _type: 3
+    _unitTypeIcon: {fileID: -6703854119606386868, guid: cf2401f59b06b5a4cb88d442064fd2ca,
+      type: 3}
+    _baseWellbeing:
+      _maxHealth: 100
+      _maxEnergy: 750
+      _maxHunger: 500
+      _maxEnergyMultiplier: 10
+      _maxHungerMultiplier: 1
+      _energyLossPerTick: 1
+      _hungerIncreasePerTick: 1
+    _movementSpeed: 2
+    _meeleeRange: 0.5
+    _unitWeight: 10
+    _toolPrefab: {fileID: 8807163647775162968, guid: 9f5260b07994b3d4db3702bb6fa5f51a,
+      type: 3}
+    _minimumTargetGroupDistance: 6
+    _cooldownTime: 1.5
+    _animationTime: 0.25
+    _actionStrength: 1
+    _maxStorage: 100
+  - _type: 0
+    _unitTypeIcon: {fileID: 2477227706542827986, guid: dc36e1a4a23cc934cb9861dfd0a949bf,
+      type: 3}
+    _baseWellbeing:
+      _maxHealth: 100
+      _maxEnergy: 750
+      _maxHunger: 500
+      _maxEnergyMultiplier: 1
+      _maxHungerMultiplier: 1
+      _energyLossPerTick: 1
+      _hungerIncreasePerTick: 1
+    _movementSpeed: 2
+    _meeleeRange: 0.5
+    _unitWeight: 10
+    _toolPrefab: {fileID: 0}
+    _minimumTargetGroupDistance: 6
+    _cooldownTime: 1.5
+    _animationTime: 0.25
+    _actionStrength: 1
+    _maxStorage: 100
+  - _type: 5
+    _unitTypeIcon: {fileID: 0}
+    _baseWellbeing:
+      _maxHealth: 100000
+      _maxEnergy: 100000
+      _maxHunger: 100000
+      _maxEnergyMultiplier: 1
+      _maxHungerMultiplier: 1
+      _energyLossPerTick: 0
+      _hungerIncreasePerTick: 0
+    _movementSpeed: 4
+    _meeleeRange: 0.5
+    _unitWeight: 10
+    _toolPrefab: {fileID: 0}
+    _minimumTargetGroupDistance: 6
+    _cooldownTime: 1
+    _animationTime: 0.25
+    _actionStrength: 1
+    _maxStorage: 100

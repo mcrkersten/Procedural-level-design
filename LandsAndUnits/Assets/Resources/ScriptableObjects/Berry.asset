@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceaeaa5a1c71bf641a9a54eafb599f00, type: 3}
+  m_Name: Berry
+  m_EditorClassIdentifier: 
+  _resourceType: 5
+  _resourcePrefab: {fileID: 7760490000069322836, guid: 99640a5c1df969f4ca30788ecbc40ea2,
+    type: 3}
+  _resourceStackPrefab: {fileID: 1967656374631450755, guid: bb535fb1f854ef148a4f7be84f6e2efd,
+    type: 3}
+  _particlePrefab: {fileID: 0}
+  _icon: {fileID: 21300000, guid: 101c721cdd4a2784d82a40b99d259e3c, type: 3}
+  _hitsToHarvest: 1
+  _harvestTillCooldown: 100
+  _cooldownTime: 10
+  _instantiatedGameObjectsPerHarvest: 1
+  _resourceAmountPerInstantiatedGameObject: 1
+  _resourcesNeededToProduce: []
+  _workEnergyNeededToProduce: 0
+  _consumable: 1
+  _nutritionalValue: 50
+  _isHarvestable: 1

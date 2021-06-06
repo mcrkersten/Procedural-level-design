@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6119b06bfba8b2b489263bba7352acc4, type: 3}
+  m_Name: Housing
+  m_EditorClassIdentifier: 
+  _color: {r: 0, g: 0, b: 0, a: 0}
+  _items:
+  - {fileID: 11400000, guid: 6846fd42c13446d43a0e7e447331f814, type: 2}
+  - {fileID: 11400000, guid: 0c98b5da4107788439c8112b07fb8b43, type: 2}
+  - {fileID: 11400000, guid: 8de14249028bb3348a7ce1fe204b2efe, type: 2}

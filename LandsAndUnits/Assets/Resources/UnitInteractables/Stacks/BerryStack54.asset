@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1adfe64ea95374f98e6a00b029cd73, type: 3}
+  m_Name: BerryStack54
+  m_EditorClassIdentifier: 
+  _interactableID: 54
+  _interactableType: 6
+  _constructionPrefab: {fileID: 0}
+  _completedPrefab: {fileID: 1967656374631450755, guid: bb535fb1f854ef148a4f7be84f6e2efd,
+    type: 3}
+  _costs: []
+  _constructionPoints: 0
+  _name: 
+  _description: 
+  _image: {fileID: 0}
+  _size: {x: 1, y: 1}
+  _occupancyCapacity: 0
+  _visitorCapacity: 0
+  _thisBuildingProduces: []
+  _storageTypes: []

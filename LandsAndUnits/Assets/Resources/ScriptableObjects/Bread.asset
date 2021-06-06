@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceaeaa5a1c71bf641a9a54eafb599f00, type: 3}
+  m_Name: Bread
+  m_EditorClassIdentifier: 
+  _resourceType: 4
+  _resourcePrefab: {fileID: 5283128355925662894, guid: fdb1b8c01687d8246a4af7936984694f,
+    type: 3}
+  _resourceStackPrefab: {fileID: 4207911389544782524, guid: 50ff354d12d426d4dbe6b9df5cf5a044,
+    type: 3}
+  _particlePrefab: {fileID: 0}
+  _icon: {fileID: 21300000, guid: 82942890746af234ca391a1fd1d7e45a, type: 3}
+  _hitsToHarvest: 2
+  _harvestTillCooldown: 100
+  _cooldownTime: 10
+  _instantiatedGameObjectsPerHarvest: 1
+  _resourceAmountPerInstantiatedGameObject: 1
+  _resourcesNeededToProduce:
+  - _resourceInformation: {fileID: 11400000, guid: cc7da80b97a1de84a842cf23c11e6771,
+      type: 2}
+    _amount: 10
+  _workEnergyNeededToProduce: 10
+  _consumable: 1
+  _nutritionalValue: 50

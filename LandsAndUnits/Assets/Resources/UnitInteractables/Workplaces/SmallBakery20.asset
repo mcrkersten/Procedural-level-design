@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1adfe64ea95374f98e6a00b029cd73, type: 3}
+  m_Name: SmallBakery20
+  m_EditorClassIdentifier: 
+  _interactableID: 20
+  _interactableType: 0
+  _constructionPrefab: {fileID: 8029178362833940602, guid: 086227d38c11a0d48aff4959349aafbd,
+    type: 3}
+  _completedPrefab: {fileID: 6404413552687711390, guid: 990f457e79e195a4f892965fce754ad3,
+    type: 3}
+  _costs:
+  - _resourceType: 1
+    _maxStorage: 10
+  _constructionPoints: 1
+  _name: Bakery
+  _description: A workplace that turns flower into bread.
+  _image: {fileID: 21300000, guid: bfa76c9a5730ff34d861da7107cbd5fb, type: 3}
+  _size: {x: 3, y: 3}
+  _occupancyCapacity: 2
+  _visitorCapacity: 5
+  _thisBuildingProduces:
+  - {fileID: 11400000, guid: 7666f1540c87caa40bf827f433db45d4, type: 2}
+  _storageTypes:
+  - _resourceType: 4
+    _maxStorage: 10
+  - _resourceType: 3
+    _maxStorage: 100

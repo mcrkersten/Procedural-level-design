@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35eb232e281f36f43bbe619afe245299, type: 3}
+  m_Name: WarningDatabase
+  m_EditorClassIdentifier: 
+  objectWarning:
+  - _warningType: 1
+    _weight: 1
+    _description: This building needs construction
+    _color: {r: 0, g: 0, b: 0, a: 0}
+    _prefab: {fileID: 3332751956983389611, guid: 05e192d095f73a2489a666a92489d7c8,
+      type: 3}
+  - _warningType: 2
+    _weight: 1
+    _description: Scheduled for destruction
+    _color: {r: 0, g: 0, b: 0, a: 0}
+    _prefab: {fileID: 3332751956983389611, guid: 1ba577bcb4e425b4389c3a7417c6ae58,
+      type: 3}
+  - _warningType: 0
+    _weight: 1
+    _description: 
+    _color: {r: 0, g: 0, b: 0, a: 0}
+    _prefab: {fileID: 4747227647608910315, guid: 074cbeca1ed62b8488db6f3ad5a21c3a,
+      type: 3}
+  unitWarning:
+  - _warningType: 2
+    _unitDecisionBehaviour: 1
+    _description: Energy
+    _icon: {fileID: -2235238436840123551, guid: 48b6050dfb06c074c8a93f99c5d66d50,
+      type: 3}
+    _weight: 100
+    _warningThreshold:
+    - _threshhold: 60
+      _color: {r: 0.41821158, g: 1, b: 0, a: 1}
+      _isLastInList: 1
+      _firstInList: 1
+    - _threshhold: 30
+      _color: {r: 1, g: 0.977661, b: 0, a: 1}
+      _isLastInList: 0
+      _firstInList: 0
+    - _threshhold: 10
+      _color: {r: 1, g: 0.325142, b: 0, a: 1}
+      _isLastInList: 0
+      _firstInList: 0
+    - _threshhold: 0
+      _color: {r: 1, g: 0, b: 0, a: 1}
+      _isLastInList: 1
+      _firstInList: 0
+    _actionThreshold: 15
+  - _warningType: 1
+    _unitDecisionBehaviour: 3
+    _description: Hunger
+    _icon: {fileID: -6407060438528006257, guid: 48b6050dfb06c074c8a93f99c5d66d50,
+      type: 3}
+    _weight: 2
+    _warningThreshold:
+    - _threshhold: 100
+      _color: {r: 1, g: 0, b: 0, a: 1}
+      _isLastInList: 1
+      _firstInList: 0
+    - _threshhold: 85
+      _color: {r: 1, g: 0.3254902, b: 0, a: 1}
+      _isLastInList: 0
+      _firstInList: 0
+    - _threshhold: 70
+      _color: {r: 1, g: 0.97647065, b: 0, a: 1}
+      _isLastInList: 0
+      _firstInList: 0
+    - _threshhold: 50
+      _color: {r: 0.41960788, g: 1, b: 0, a: 1}
+      _isLastInList: 1
+      _firstInList: 1
+    _actionThreshold: 60
+  - _warningType: 3
+    _unitDecisionBehaviour: 3
+    _description: Hunger
+    _icon: {fileID: 3308907030912547547, guid: 48b6050dfb06c074c8a93f99c5d66d50, type: 3}
+    _weight: 3
+    _warningThreshold:
+    - _threshhold: 60
+      _color: {r: 0.41960788, g: 1, b: 0, a: 1}
+      _isLastInList: 0
+      _firstInList: 1
+    - _threshhold: 30
+      _color: {r: 1, g: 0.97647065, b: 0, a: 1}
+      _isLastInList: 0
+      _firstInList: 0
+    - _threshhold: 10
+      _color: {r: 1, g: 0.3254902, b: 0, a: 1}
+      _isLastInList: 0
+      _firstInList: 0
+    - _threshhold: 0
+      _color: {r: 1, g: 0, b: 0, a: 1}
+      _isLastInList: 1
+      _firstInList: 0
+    _actionThreshold: 15
+  - _warningType: 0
+    _unitDecisionBehaviour: 5
+    _description: 
+    _icon: {fileID: 0}
+    _weight: 0
+    _warningThreshold: []
+    _actionThreshold: 49

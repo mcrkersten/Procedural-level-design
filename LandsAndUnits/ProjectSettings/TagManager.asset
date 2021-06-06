@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Unit
+  - Projectile
+  - GridTrigger
+  - Ground
+  - UnitInteractable
+  - CameraFocusPoint
+  - NewGameSpawner
+  - UI
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Unit
+  - DistanceKeeper
+  - TopWaterView
+  - Buildings
+  - Clouds
+  - Grid
+  - Resource
+  - Camera
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: TalkSprites
+    uniqueID: 778703143
+    locked: 0

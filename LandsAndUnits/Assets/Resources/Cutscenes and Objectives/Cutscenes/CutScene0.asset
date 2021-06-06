@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 745463d8826c77b459d287a42d7a3fc5, type: 3}
+  m_Name: CutScene0
+  m_EditorClassIdentifier: 
+  _sceneIndex: 0
+  _dialogData:
+  - _speakerName: Worker
+    _dialog:
+    - So, what do we do now? Are we stuck here?
+    _speaker: {fileID: 0}
+    _emotion: 0
+  - _speakerName: Builder
+    _dialog:
+    - We build!
+    _speaker: {fileID: 0}
+    _emotion: 0
+  - _speakerName: Worker
+    _dialog:
+    - Easy for you to say, you are the builder.
+    - Building is all you do.
+    _speaker: {fileID: 0}
+    _emotion: 0
+  - _speakerName: Builder
+    _dialog:
+    - Not true, you liar!!
+    - I do loads of other stuff. I can demolish stuff too!
+    _speaker: {fileID: 0}
+    _emotion: 4
+  - _speakerName: Worker
+    _dialog:
+    - Something to be proud of, suuure.
+    _speaker: {fileID: 0}
+    _emotion: 0
+  - _speakerName: Harvester
+    _dialog:
+    - Stop it you guys!
+    - We have to stick together, no room for fights.
+    - What should we do next?
+    _speaker: {fileID: 0}
+    _emotion: 1
+  - _speakerName: Builder
+    _dialog:
+    - First, let's demolish our wrecked ship.
+    - It will give us some wood we can use to get started.
+    _speaker: {fileID: 0}
+    _emotion: 0
+  _cutceneTool: {fileID: 2254080793248263348, guid: f5dd4888df6202d49a22dd0770f91d95,
+    type: 3}

@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c81db7866084f4ab44821a4258c21b, type: 3}
+  m_Name: FoilageLayerSettings
+  m_EditorClassIdentifier: 
+  _foilageLayers:
+  - _visableInGameMenu: 0
+    _type: 5
+    _foilageAmountPerCell: 1
+    _foilageSpawnPercentage: 15
+    _resourceHeightOffset: 0
+    _foilageHeightOffset: 0
+    _randomPositionOnCell: 0
+    _resourceSpawnOptions: []
+    _foilageObjects:
+    - {fileID: 1082417600222931642, guid: ff653811a8ef91c489a071c02e7764ad, type: 3}
+    - {fileID: 1082417600222931642, guid: cb363be17f6600d4ea768fd889a84e24, type: 3}
+    - {fileID: 1082417600222931642, guid: c0140a408620e0b4da78193dd945b810, type: 3}
+    - {fileID: 1082417600222931642, guid: 641d1b043f16829479f884e906cbac4a, type: 3}
+    - {fileID: 1082417600222931642, guid: 78d2cbe748e98524da87bbad12faea0c, type: 3}
+  - _visableInGameMenu: 0
+    _type: 4
+    _foilageAmountPerCell: 2
+    _foilageSpawnPercentage: 15
+    _resourceHeightOffset: 0
+    _foilageHeightOffset: 0
+    _randomPositionOnCell: 0
+    _resourceSpawnOptions: []
+    _foilageObjects:
+    - {fileID: 2436385801442564310, guid: e4ea13c7f7c808641a96b84d8680cdf1, type: 3}
+    - {fileID: 8395813964063338060, guid: 8b4f282aaace5a843983e25d5f91f56e, type: 3}
+    - {fileID: 1961150140097767613, guid: b87281bf6c0ca234a898289fbdc59156, type: 3}
+    - {fileID: 3246534556517770901, guid: a41ead138c15d7444a49aea1030c0916, type: 3}
+    - {fileID: 7315379550154204715, guid: d76cd76a6bd584c4f8afe539618cd688, type: 3}
+    - {fileID: 4773330194298630753, guid: a46ce83c78de2134080bf6b7fd2d6880, type: 3}
+  - _visableInGameMenu: 1
+    _type: 1
+    _foilageAmountPerCell: 1
+    _foilageSpawnPercentage: 10
+    _resourceHeightOffset: 0
+    _foilageHeightOffset: 0
+    _randomPositionOnCell: 0
+    _resourceSpawnOptions:
+    - _type: 1
+      _minimum: 5
+      _maximum: 15
+      _resources:
+      - {fileID: 11400000, guid: 6b2a3913684118849b6ab5b9a1f4c651, type: 2}
+      - {fileID: 11400000, guid: c5b80667e49a6e24fa85c0c96f9d6bf0, type: 2}
+      - {fileID: 11400000, guid: 2b2758b9976c9734bb58f3d41333c2d4, type: 2}
+      _objectCount: 15
+    - _type: 2
+      _minimum: 5
+      _maximum: 15
+      _resources:
+      - {fileID: 11400000, guid: 74b5090d346538144aacdf8e0a34b9f0, type: 2}
+      - {fileID: 11400000, guid: 892e37622a257bb44936849a9c20597f, type: 2}
+      - {fileID: 11400000, guid: f26f5708ba2a7884a8d0dea79ec0caca, type: 2}
+      - {fileID: 11400000, guid: 62879ccf81a9bd74087ccfcf2bd61202, type: 2}
+      - {fileID: 11400000, guid: c034c44c9b0b11641a56ce26bcaa3806, type: 2}
+      - {fileID: 11400000, guid: 1fa0b05909a4c6f4c9c84f6277ba4df5, type: 2}
+      _objectCount: 15
+    _foilageObjects:
+    - {fileID: 2436385801442564310, guid: e4ea13c7f7c808641a96b84d8680cdf1, type: 3}
+    - {fileID: 8395813964063338060, guid: 8b4f282aaace5a843983e25d5f91f56e, type: 3}
+    - {fileID: 1961150140097767613, guid: b87281bf6c0ca234a898289fbdc59156, type: 3}
+    - {fileID: 3246534556517770901, guid: a41ead138c15d7444a49aea1030c0916, type: 3}
+    - {fileID: 4773330194298630753, guid: a46ce83c78de2134080bf6b7fd2d6880, type: 3}
+  - _visableInGameMenu: 1
+    _type: 2
+    _foilageAmountPerCell: 0
+    _foilageSpawnPercentage: 0
+    _resourceHeightOffset: 0
+    _foilageHeightOffset: 0
+    _randomPositionOnCell: 0
+    _resourceSpawnOptions:
+    - _type: 1
+      _minimum: 5
+      _maximum: 20
+      _resources:
+      - {fileID: 11400000, guid: ac4d3ae69bc1d7b45ac4922c5d6947b2, type: 2}
+      - {fileID: 11400000, guid: 578b83987d0c8c144b0e62abeae3dd5a, type: 2}
+      _objectCount: 20
+    - _type: 2
+      _minimum: 1
+      _maximum: 10
+      _resources:
+      - {fileID: 11400000, guid: 0f3ddedb545b5b949967e254563d58bb, type: 2}
+      - {fileID: 11400000, guid: 01a8063360637f94ebb536d49848459d, type: 2}
+      - {fileID: 11400000, guid: aee0c3eca1f2ea2428dd639780aa2696, type: 2}
+      - {fileID: 11400000, guid: 53fbc912a4b8ecf46a712b8ac92c2bf6, type: 2}
+      - {fileID: 11400000, guid: 26dc48af94c6b5c4fbb06faf5538b257, type: 2}
+      - {fileID: 11400000, guid: ae924cd5fb8b73b40821bc185b731cef, type: 2}
+      _objectCount: 10
+    - _type: 5
+      _minimum: 1
+      _maximum: 10
+      _resources:
+      - {fileID: 11400000, guid: 5b9ae156dbe0c4d4f9579d41ecfdba50, type: 2}
+      _objectCount: 10
+    _foilageObjects: []
+  - _visableInGameMenu: 1
+    _type: 3
+    _foilageAmountPerCell: 0
+    _foilageSpawnPercentage: 0
+    _resourceHeightOffset: 0
+    _foilageHeightOffset: 0
+    _randomPositionOnCell: 0
+    _resourceSpawnOptions:
+    - _type: 1
+      _minimum: 5
+      _maximum: 20
+      _resources:
+      - {fileID: 11400000, guid: ac4d3ae69bc1d7b45ac4922c5d6947b2, type: 2}
+      - {fileID: 11400000, guid: 578b83987d0c8c144b0e62abeae3dd5a, type: 2}
+      _objectCount: 20
+    - _type: 2
+      _minimum: 1
+      _maximum: 20
+      _resources:
+      - {fileID: 11400000, guid: 0f3ddedb545b5b949967e254563d58bb, type: 2}
+      - {fileID: 11400000, guid: 01a8063360637f94ebb536d49848459d, type: 2}
+      - {fileID: 11400000, guid: aee0c3eca1f2ea2428dd639780aa2696, type: 2}
+      - {fileID: 11400000, guid: 53fbc912a4b8ecf46a712b8ac92c2bf6, type: 2}
+      - {fileID: 11400000, guid: 26dc48af94c6b5c4fbb06faf5538b257, type: 2}
+      - {fileID: 11400000, guid: ae924cd5fb8b73b40821bc185b731cef, type: 2}
+      _objectCount: 20
+    - _type: 5
+      _minimum: 4
+      _maximum: 8
+      _resources:
+      - {fileID: 11400000, guid: 5b9ae156dbe0c4d4f9579d41ecfdba50, type: 2}
+      _objectCount: 8
+    _foilageObjects: []
+  - _visableInGameMenu: 1
+    _type: 6
+    _foilageAmountPerCell: 1
+    _foilageSpawnPercentage: 0
+    _resourceHeightOffset: 0
+    _foilageHeightOffset: 0
+    _randomPositionOnCell: 0
+    _resourceSpawnOptions:
+    - _type: 2
+      _minimum: 1
+      _maximum: 10
+      _resources:
+      - {fileID: 11400000, guid: 797918e2a21f3ae4fb129f657edb230e, type: 2}
+      - {fileID: 11400000, guid: 7892ef79c9f91ff4b80886b5c153c9f5, type: 2}
+      - {fileID: 11400000, guid: 57368e95645bdd249a4c6a0f7737b529, type: 2}
+      - {fileID: 11400000, guid: ab94cd2a177671a4a8cd1a992646c651, type: 2}
+      - {fileID: 11400000, guid: 38ec961397814524b960162bc5e63df8, type: 2}
+      - {fileID: 11400000, guid: 1d9efe5a8beee6640b7e0371135a29da, type: 2}
+      _objectCount: 6
+    _foilageObjects: []
+  - _visableInGameMenu: 1
+    _type: 7
+    _foilageAmountPerCell: 0
+    _foilageSpawnPercentage: 0
+    _resourceHeightOffset: 0
+    _foilageHeightOffset: 0
+    _randomPositionOnCell: 0
+    _resourceSpawnOptions: []
+    _foilageObjects: []

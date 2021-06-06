@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72e7dbfefa6f6af43bc417b534768463, type: 3}
+  m_Name: Demolision
+  m_EditorClassIdentifier: 
+  _guideType: 0
+  _data:
+  - _guide: 0
+    _index: 0
+    _title: Demolision
+    _text: In order to demolish the ship wreck, we need to activate the demolision-mode.
+      Click on the highlighted button to activate it.
+    _objective: Activate demolision-mode
+    _toHighlight: 1
+  - _guide: 0
+    _index: 1
+    _title: Flag the ship=wreck
+    _text: In this mode, we can flag objects we would like to demolish. Click on
+      the ship-wreck to flag it for demolishment
+    _objective: Flag the ship-wreck
+    _toHighlight: 0
+  - _guide: 0
+    _index: 2
+    _title: Assign builder
+    _text: Now we need to tell a builder to demolish the ship-wreck. Disale the building
+      mide and select the builder. Then, click on the ship-wreck. The builder will
+      be assigned to demolish it.
+    _objective: Demolish ship-wreck
+    _toHighlight: 0
+  - _guide: 0
+    _index: 3
+    _title: Collect resources
+    _text: When a building or object get's demolished, it will drop the resources
+      that is costed to construct. With the builder selected, click on the stack
+      of wood. The builder will start collecting it.
+    _objective: Collect wood
+    _toHighlight: 0
